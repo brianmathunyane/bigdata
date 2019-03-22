@@ -17,10 +17,6 @@ def fibonacci(n):
     '''Return nth term in fibonacci sequence'''
 
 
-def reverse(word):
-
-    '''Return word in reverse'''
-
 
 def reverse(word):
     if len(word) == 0:
