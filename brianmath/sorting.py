@@ -17,6 +17,8 @@ def bubble_sort(items):
     '''Return array of items, sorted in ascending order'''
 
 
+bubble_sort([5,4,3,2,1])
+
 def merge_sort(items):
 
     len_i = len(items)
@@ -53,6 +55,9 @@ def merge(A, B):
     '''Return array of items, sorted in ascending order'''
 
 
+merge_sort([5,7,3,5,7,1,0])
+
+
 def quick_sort(items):
     if len(items) == 0:
         return items
@@ -62,3 +67,6 @@ def quick_sort(items):
     r = [i for i in items if i > items[p]]
     return quick_sort(l) + m + quick_sort(r)
     '''Return array of items, sorted in ascending order'''
+
+
+quick_sort([10, 91, 2, 13, 3, 1])

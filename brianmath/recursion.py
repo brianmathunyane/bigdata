@@ -5,6 +5,8 @@ def sum_array(array):
     '''Return sum of all items in array'''
 
 
+sum_array([1,2,3,4,5,6,7,8,9,10])
+
 
 def fibonacci(n):
 
@@ -17,6 +19,8 @@ def fibonacci(n):
     '''Return nth term in fibonacci sequence'''
 
 
+fibonacci (5)
+
 
 def reverse(word):
     if len(word) == 0:
@@ -27,3 +31,6 @@ def reverse(word):
 #print(reverse(a))
 
     '''Return word in reverse'''
+
+
+reverse("brian")
