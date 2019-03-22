@@ -1,0 +1,10 @@
+README.md
+setup.py
+brianmath/__init__.py
+brianmath/recursion.py
+brianmath/sorting.py
+brianmath.egg-info/PKG-INFO
+brianmath.egg-info/SOURCES.txt
+brianmath.egg-info/dependency_links.txt
+brianmath.egg-info/requires.txt
+brianmath.egg-info/top_level.txt
